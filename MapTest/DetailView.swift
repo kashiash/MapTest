@@ -47,7 +47,7 @@ struct DetailView: View {
             }
             
             if let coordinate = coordinate {
-                TurnaroundView(coordinate: coordinate)
+                TurnAroundView(coordinate: coordinate)
                     .tabItem {
                         Label("Turnaround", systemImage: "arrow.triangle.2.circlepath")
                     }
